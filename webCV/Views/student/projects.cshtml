@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Projects";
+
+    ViewBag.oop1 = "ATM Machine";
+    ViewBag.oop1des = "A console applicaiton that resembles how an ATM machine runs";
+
+    ViewBag.oop2 = "Tourism Management System";
+    ViewBag.oop2des = "A Desktop Application that allows tourists to plan trips and administration to manage trips";
+
+    ViewBag.wt = "Crop Distribution System";
+    ViewBag.wtdes = "A Web Application that provides a B2B crop distribution service";
+
+}
+
+<div>
+    <h2>@ViewBag.Title</h2>
+
+    <ol>
+        <li>
+            OOP1: @ViewBag.oop1
+            <ul>
+                <li>Description: @ViewBag.oop1des</li>
+            </ul>
+        </li>
+
+        <li>
+            OOP2: @ViewBag.oop2
+            <ul>
+                <li>Description: @ViewBag.oop2des</li>
+            </ul>
+        </li>
+
+        <li>
+            WebTech: @ViewBag.wt
+            <ul>
+                <li>Description: @ViewBag.wtdes</li>
+            </ul>
+        </li>
+
+    </ol>
+</div>
+
+
+

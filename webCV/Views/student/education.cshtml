@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Education";
+    ViewBag.School = "DPS STS SCHOOL DHAKA";
+    ViewBag.OlevelsGPA = "4.57";
+    ViewBag.AlevelsGPA = "4.00";
+    ViewBag.Schoolyear = "2019";
+
+    ViewBag.university = "AIUB";
+    ViewBag.bsc = "Computer Science and Engineering";
+    ViewBag.semester = "9th Semester";
+    ViewBag.cgpa = "3.83";
+
+
+}
+
+<div>
+    <h2>@ViewBag.Title</h2>
+    <ol>
+        <li>
+            School: @ViewBag.school
+            <ul>
+                <li>Board: Cambridge International Examinations</li>
+                <li>
+                    GPA:
+                    <ul>
+                        <li>O Levels: @ViewBag.OlevelsGPA</li>
+                        <li>A Levels: @ViewBag.AlevelsGPA</li>
+                    </ul>
+                </li>
+                <li>Graduation Year: @ViewBag.Schoolyear</li>
+            </ul>
+        </li>
+        <li>
+            University: @ViewBag.university
+            <ul>
+                <li>Bachelors: @ViewBag.bsc</li>
+                <li>Semester: @ViewBag.semester</li>
+                <li>CGPA: @ViewBag.cgpa</li>
+            </ul>
+        </li>
+    </ol>
+</div>
+
